@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body>
+    <h1 align="center"> Student Registration Form</h1>
+    <p align="center">Please fill out the form below to register.</p>
+    <hr></hr>
+    <h2>Personal Information</h2>
+    <label for="full name"><b>Full Name:</b></label>
+    <input type="text" id="Full name" placeholder="eg.swarnika" required><br><br>
+
+    <label for="date of birth"><b>Date of Birth:</b></label>
+    <input type="date" id="date of birth" name="date of birth" required>
+<br><br>
+<label for="number"><b>Mobile Number:</b></label>
+<input type="tel" id="number" name="number" placeholder="eg.1234567890" required>
+<br><br>
+    <label for="gender"><b>Male</b></label>
+    <input type="radio" id="male" value="male" name="gender">
+    <label for="female"><b>Female</b></label>
+    <input type="radio" id="female" value="female" name="gender">
+<label for="other"><b>Other</b></label>
+    <input type="radio" id="other" value="other" name="gender">
+
+<h2>Academic Information</h2>
+<label for="text"><b>select your course:</b></label>
+<select id="text" name="text" required>
+    <option value="computer science">Computer Science</option>
+    <option value="mathematics">Mathematics</option>
+    <option value="physics">Physics</option>
+    <option value="chemistry">Chemistry</option>
+</select>
+<br><br>
+<label for="year/semester"><b>Year/Semester:</b></label>
+<select name="year/semester" id="course" required>
+    <option value="1year/1semester">1st Year / 1st Semester</option>
+    <option value="1year/2semester">1st Year / 2nd Semester</option>
+    <option value="2year/1semester">2nd Year / 1st Semester</option>
+    <option value="2year/2semester">2nd Year / 2nd Semester</option>
+</select> 
+<br><br>
+<label for="college"><b>College/University:</b></label>
+<input type="text" id="college" name="college/university" placeholder="eg. XYZ University" required>
+<br><br>
+<h2>Address Information</h2>
+<label for="address"><b>Address:</b></label><br>
+<textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address here..." required></textarea>
+<br><br>
+<h2>Create Account</h2>
+<label for="username"><b>Username:</b></label>
+<input type="text" id="username" name="username" placeholder="Choose a username" required>
+<br><br>
+<label for="password"><b>Password:</b></label>
+<input type="password" id="password" name="password" placeholder="Create a password" required>
+<br><br>
+<label for="confirm_password"><b>Confirm Password:</b></label>
+<input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+<br><br>
+<input type="submit" value="Register"> 
+</body>
+</html>
